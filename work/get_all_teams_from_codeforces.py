@@ -25,4 +25,4 @@ def get_team(name):
 
 
     for i in range(len(table)):
-        get_user[table[i][0]] = name
+        get_user[table[i][0].lower()] = name
